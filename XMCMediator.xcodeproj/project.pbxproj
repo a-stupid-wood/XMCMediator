@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044FED3C1DB22135000434A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED3B1DB22134000434A9 /* main.m */; };
+		044FED451DB22135000434A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044FED431DB22135000434A9 /* Main.storyboard */; };
+		044FED471DB22135000434A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044FED461DB22135000434A9 /* Assets.xcassets */; };
+		044FED4A1DB22135000434A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044FED481DB22135000434A9 /* LaunchScreen.storyboard */; };
+		044FED551DB22135000434A9 /* XMCMediatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED541DB22135000434A9 /* XMCMediatorTests.m */; };
+		044FED601DB22135000434A9 /* XMCMediatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED5F1DB22135000434A9 /* XMCMediatorUITests.m */; };
+		044FED7B1DB22173000434A9 /* DemoModuleADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED6D1DB22173000434A9 /* DemoModuleADetailViewController.m */; };
+		044FED7C1DB22173000434A9 /* DemoModuleADetail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED6F1DB22173000434A9 /* DemoModuleADetail2ViewController.m */; };
+		044FED7D1DB22173000434A9 /* XMCMediator+CTMediatorModuleAActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED721DB22173000434A9 /* XMCMediator+CTMediatorModuleAActions.m */; };
+		044FED7E1DB22173000434A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED731DB22173000434A9 /* ViewController.m */; };
+		044FED7F1DB22173000434A9 /* XMCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED761DB22173000434A9 /* XMCMediator.m */; };
+		044FED801DB22173000434A9 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED771DB22173000434A9 /* Target_A.m */; };
+		044FED811DB22173000434A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FED7A1DB22173000434A9 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044FED511DB22135000434A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044FED2F1DB22134000434A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044FED361DB22134000434A9;
+			remoteInfo = XMCMediator;
+		};
+		044FED5C1DB22135000434A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044FED2F1DB22134000434A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044FED361DB22134000434A9;
+			remoteInfo = XMCMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044FED371DB22134000434A9 /* XMCMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMCMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FED3B1DB22134000434A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044FED441DB22135000434A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044FED461DB22135000434A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044FED491DB22135000434A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044FED4B1DB22135000434A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FED501DB22135000434A9 /* XMCMediatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMCMediatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FED541DB22135000434A9 /* XMCMediatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMCMediatorTests.m; sourceTree = "<group>"; };
+		044FED561DB22135000434A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FED5B1DB22135000434A9 /* XMCMediatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMCMediatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FED5F1DB22135000434A9 /* XMCMediatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMCMediatorUITests.m; sourceTree = "<group>"; };
+		044FED611DB22135000434A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FED6D1DB22173000434A9 /* DemoModuleADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModuleADetailViewController.m; sourceTree = "<group>"; };
+		044FED6E1DB22173000434A9 /* DemoModuleADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModuleADetailViewController.h; sourceTree = "<group>"; };
+		044FED6F1DB22173000434A9 /* DemoModuleADetail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModuleADetail2ViewController.m; sourceTree = "<group>"; };
+		044FED701DB22173000434A9 /* DemoModuleADetail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModuleADetail2ViewController.h; sourceTree = "<group>"; };
+		044FED711DB22173000434A9 /* XMCMediator+CTMediatorModuleAActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XMCMediator+CTMediatorModuleAActions.h"; sourceTree = "<group>"; };
+		044FED721DB22173000434A9 /* XMCMediator+CTMediatorModuleAActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XMCMediator+CTMediatorModuleAActions.m"; sourceTree = "<group>"; };
+		044FED731DB22173000434A9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044FED741DB22173000434A9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044FED751DB22173000434A9 /* XMCMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCMediator.h; sourceTree = "<group>"; };
+		044FED761DB22173000434A9 /* XMCMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCMediator.m; sourceTree = "<group>"; };
+		044FED771DB22173000434A9 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		044FED781DB22173000434A9 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		044FED791DB22173000434A9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044FED7A1DB22173000434A9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044FED341DB22134000434A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FED4D1DB22135000434A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FED581DB22135000434A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044FED2E1DB22134000434A9 = {
+			isa = PBXGroup;
+			children = (
+				044FED391DB22134000434A9 /* XMCMediator */,
+				044FED531DB22135000434A9 /* XMCMediatorTests */,
+				044FED5E1DB22135000434A9 /* XMCMediatorUITests */,
+				044FED381DB22134000434A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044FED381DB22134000434A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044FED371DB22134000434A9 /* XMCMediator.app */,
+				044FED501DB22135000434A9 /* XMCMediatorTests.xctest */,
+				044FED5B1DB22135000434A9 /* XMCMediatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044FED391DB22134000434A9 /* XMCMediator */ = {
+			isa = PBXGroup;
+			children = (
+				044FED6D1DB22173000434A9 /* DemoModuleADetailViewController.m */,
+				044FED6E1DB22173000434A9 /* DemoModuleADetailViewController.h */,
+				044FED6F1DB22173000434A9 /* DemoModuleADetail2ViewController.m */,
+				044FED701DB22173000434A9 /* DemoModuleADetail2ViewController.h */,
+				044FED711DB22173000434A9 /* XMCMediator+CTMediatorModuleAActions.h */,
+				044FED721DB22173000434A9 /* XMCMediator+CTMediatorModuleAActions.m */,
+				044FED731DB22173000434A9 /* ViewController.m */,
+				044FED741DB22173000434A9 /* ViewController.h */,
+				044FED751DB22173000434A9 /* XMCMediator.h */,
+				044FED761DB22173000434A9 /* XMCMediator.m */,
+				044FED771DB22173000434A9 /* Target_A.m */,
+				044FED781DB22173000434A9 /* Target_A.h */,
+				044FED791DB22173000434A9 /* AppDelegate.h */,
+				044FED7A1DB22173000434A9 /* AppDelegate.m */,
+				044FED431DB22135000434A9 /* Main.storyboard */,
+				044FED461DB22135000434A9 /* Assets.xcassets */,
+				044FED481DB22135000434A9 /* LaunchScreen.storyboard */,
+				044FED4B1DB22135000434A9 /* Info.plist */,
+				044FED3A1DB22134000434A9 /* Supporting Files */,
+			);
+			path = XMCMediator;
+			sourceTree = "<group>";
+		};
+		044FED3A1DB22134000434A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044FED3B1DB22134000434A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044FED531DB22135000434A9 /* XMCMediatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				044FED541DB22135000434A9 /* XMCMediatorTests.m */,
+				044FED561DB22135000434A9 /* Info.plist */,
+			);
+			path = XMCMediatorTests;
+			sourceTree = "<group>";
+		};
+		044FED5E1DB22135000434A9 /* XMCMediatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044FED5F1DB22135000434A9 /* XMCMediatorUITests.m */,
+				044FED611DB22135000434A9 /* Info.plist */,
+			);
+			path = XMCMediatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044FED361DB22134000434A9 /* XMCMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FED641DB22135000434A9 /* Build configuration list for PBXNativeTarget "XMCMediator" */;
+			buildPhases = (
+				044FED331DB22134000434A9 /* Sources */,
+				044FED341DB22134000434A9 /* Frameworks */,
+				044FED351DB22134000434A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMCMediator;
+			productName = XMCMediator;
+			productReference = 044FED371DB22134000434A9 /* XMCMediator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044FED4F1DB22135000434A9 /* XMCMediatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FED671DB22135000434A9 /* Build configuration list for PBXNativeTarget "XMCMediatorTests" */;
+			buildPhases = (
+				044FED4C1DB22135000434A9 /* Sources */,
+				044FED4D1DB22135000434A9 /* Frameworks */,
+				044FED4E1DB22135000434A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044FED521DB22135000434A9 /* PBXTargetDependency */,
+			);
+			name = XMCMediatorTests;
+			productName = XMCMediatorTests;
+			productReference = 044FED501DB22135000434A9 /* XMCMediatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044FED5A1DB22135000434A9 /* XMCMediatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FED6A1DB22135000434A9 /* Build configuration list for PBXNativeTarget "XMCMediatorUITests" */;
+			buildPhases = (
+				044FED571DB22135000434A9 /* Sources */,
+				044FED581DB22135000434A9 /* Frameworks */,
+				044FED591DB22135000434A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044FED5D1DB22135000434A9 /* PBXTargetDependency */,
+			);
+			name = XMCMediatorUITests;
+			productName = XMCMediatorUITests;
+			productReference = 044FED5B1DB22135000434A9 /* XMCMediatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044FED2F1DB22134000434A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xmc;
+				TargetAttributes = {
+					044FED361DB22134000434A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					044FED4F1DB22135000434A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 044FED361DB22134000434A9;
+					};
+					044FED5A1DB22135000434A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 044FED361DB22134000434A9;
+					};
+				};
+			};
+			buildConfigurationList = 044FED321DB22134000434A9 /* Build configuration list for PBXProject "XMCMediator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044FED2E1DB22134000434A9;
+			productRefGroup = 044FED381DB22134000434A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044FED361DB22134000434A9 /* XMCMediator */,
+				044FED4F1DB22135000434A9 /* XMCMediatorTests */,
+				044FED5A1DB22135000434A9 /* XMCMediatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044FED351DB22134000434A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FED4A1DB22135000434A9 /* LaunchScreen.storyboard in Resources */,
+				044FED471DB22135000434A9 /* Assets.xcassets in Resources */,
+				044FED451DB22135000434A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FED4E1DB22135000434A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FED591DB22135000434A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044FED331DB22134000434A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FED7B1DB22173000434A9 /* DemoModuleADetailViewController.m in Sources */,
+				044FED7D1DB22173000434A9 /* XMCMediator+CTMediatorModuleAActions.m in Sources */,
+				044FED3C1DB22135000434A9 /* main.m in Sources */,
+				044FED7C1DB22173000434A9 /* DemoModuleADetail2ViewController.m in Sources */,
+				044FED811DB22173000434A9 /* AppDelegate.m in Sources */,
+				044FED7E1DB22173000434A9 /* ViewController.m in Sources */,
+				044FED7F1DB22173000434A9 /* XMCMediator.m in Sources */,
+				044FED801DB22173000434A9 /* Target_A.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FED4C1DB22135000434A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FED551DB22135000434A9 /* XMCMediatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FED571DB22135000434A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FED601DB22135000434A9 /* XMCMediatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044FED521DB22135000434A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044FED361DB22134000434A9 /* XMCMediator */;
+			targetProxy = 044FED511DB22135000434A9 /* PBXContainerItemProxy */;
+		};
+		044FED5D1DB22135000434A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044FED361DB22134000434A9 /* XMCMediator */;
+			targetProxy = 044FED5C1DB22135000434A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044FED431DB22135000434A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044FED441DB22135000434A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044FED481DB22135000434A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044FED491DB22135000434A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044FED621DB22135000434A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044FED631DB22135000434A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044FED651DB22135000434A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMCMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmc.XMCMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044FED661DB22135000434A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMCMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmc.XMCMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044FED681DB22135000434A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMCMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmc.XMCMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMCMediator.app/XMCMediator";
+			};
+			name = Debug;
+		};
+		044FED691DB22135000434A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMCMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmc.XMCMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMCMediator.app/XMCMediator";
+			};
+			name = Release;
+		};
+		044FED6B1DB22135000434A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMCMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmc.XMCMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMCMediator;
+			};
+			name = Debug;
+		};
+		044FED6C1DB22135000434A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMCMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmc.XMCMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMCMediator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044FED321DB22134000434A9 /* Build configuration list for PBXProject "XMCMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FED621DB22135000434A9 /* Debug */,
+				044FED631DB22135000434A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044FED641DB22135000434A9 /* Build configuration list for PBXNativeTarget "XMCMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FED651DB22135000434A9 /* Debug */,
+				044FED661DB22135000434A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044FED671DB22135000434A9 /* Build configuration list for PBXNativeTarget "XMCMediatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FED681DB22135000434A9 /* Debug */,
+				044FED691DB22135000434A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044FED6A1DB22135000434A9 /* Build configuration list for PBXNativeTarget "XMCMediatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FED6B1DB22135000434A9 /* Debug */,
+				044FED6C1DB22135000434A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044FED2F1DB22134000434A9 /* Project object */;
+}
