@@ -444,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XMCMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmc.XMCMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XMCMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmc.XMCMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,6 +528,7 @@
 				044FED661DB22135000434A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044FED671DB22135000434A9 /* Build configuration list for PBXNativeTarget "XMCMediatorTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +537,7 @@
 				044FED691DB22135000434A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044FED6A1DB22135000434A9 /* Build configuration list for PBXNativeTarget "XMCMediatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +546,7 @@
 				044FED6C1DB22135000434A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
